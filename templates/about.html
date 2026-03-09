@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About - Heart Disease Analysis</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; background-color: #f4f7f6; }
+        
+        /* Nav Bar */
+        nav { background: #002B5B; padding: 15px 50px; display: flex; justify-content: space-between; align-items: center; color: white; }
+        nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+
+        .about-container { 
+            display: flex; 
+            align-items: center; 
+            padding: 60px 50px; 
+            gap: 50px; 
+            min-height: 70vh;
+        }
+
+        /* Text Section */
+        .about-text { flex: 1; }
+        .about-text h1 { color: #002B5B; font-size: 2.5rem; margin-bottom: 20px; }
+        .about-text p { font-size: 1.1rem; line-height: 1.8; color: #444; text-align: justify; }
+        
+        /* Image Placeholder Section */
+        .about-image { 
+            flex: 1; 
+            height: 400px; 
+            background: #e0e0e0; 
+            border: 3px dashed #002B5B; 
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #002B5B;
+            font-weight: bold;
+        }
+        
+        .btn-back { display: inline-block; margin-top: 25px; padding: 12px 25px; background: #4e54f3; color: white; text-decoration: none; border-radius: 8px; }
+    img {
+    width: 38vw;
+    }
+
+    
+        .logo { color: white; font-size: 24px; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">HeartHealth</div>
+        <div>
+            <a href="/">Home</a>
+            <a href="/dashboard">Dashboard</a>
+            <a href="/story">Story</a>
+        </div>
+    </nav>
+
+    <div class="about-container">
+        <div class="about-text">
+            <h1>Understanding Heart Disease</h1>
+            <p>
+                Heart disease describes a range of conditions that affect your heart. Diseases under the heart disease umbrella include blood vessel diseases, such as coronary artery disease; heart rhythm problems (arrhythmias); and heart defects you're born with (congenital heart defects), among others.
+            </p>
+            <p>
+                <b>Key Risk Factors:</b> Our analysis focuses on critical indicators like High Blood Pressure, Cholesterol levels, Smoking habits, and BMI. By visualizing this data, we aim to help healthcare professionals identify patterns and provide early interventions.
+            </p>
+            <a href="/" class="btn-back">← Back to Home</a>
+        </div>
+
+            <img src="/static/img/50pm_7wdp_220426.jpg" alt="">
+            </div>
+    </div>
+
+</body>
+</html>

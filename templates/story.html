@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Disease Analysis - Dashboard</title>
+    <style>
+        /* Basic Styling */
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: #f0f4f8; /* Light Greyish Blue background */
+        }
+
+        /* Navigation Bar */
+        nav { 
+            background: #002B5B; /* Professional Navy Blue */
+            padding: 15px 40px; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        .logo { color: white; font-size: 24px; font-weight: bold; }
+        .nav-links a { 
+            color: white; 
+            text-decoration: none; 
+            margin-left: 20px; 
+            font-weight: 500;
+            transition: 0.3s;
+        }
+        .nav-links a:hover { color: #4e54f3; }
+
+        /* Dashboard Container */
+        .main-container {
+            max-width: 1300px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        h2 { 
+            text-align: center; 
+            color: #002B5B; 
+            margin-bottom: 25px; 
+        }
+
+        /* Footer Button */
+        .footer { text-align: center; margin-bottom: 40px; }
+        .btn-back { 
+            background: #4e54f3; 
+            color: white; 
+            padding: 12px 25px; 
+            text-decoration: none; 
+            border-radius: 8px; 
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn-back:hover { background: #3a41c9; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">HeartHealth</div>
+        <div class="nav-links">
+            <a href="/">Home</a>
+             <a href="./dashboard">Dashboard</a> 
+            <a href="/about">About</a>
+        </div>
+    </nav>
+
+    <div class="main-container">
+        <h2>Interactive Heart Disease Analysis Dashboard</h2>
+        <div class='tableauPlaceholder' id='viz1773078671580' style='position: relative'>
+            <noscript><a href='#'><img alt='Heart Disease Story 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;st&#47;story_17730371423990&#47;Story1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='story_17730371423990&#47;Story1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;st&#47;story_17730371423990&#47;Story1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1773078671580');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1016px';vizElement.style.height='991px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+
+
+            </script></div>
+
+        
+
+    <div class="footer">
+        <a href="/" class="btn-back">← Back to Home Page</a>
+    </div>
+
+</body>
+</html>
