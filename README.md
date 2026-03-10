@@ -25,6 +25,16 @@ This project is a comprehensive web application built using the Flask framework 
 https://drive.google.com/drive/folders/115G8GxqOAcMermO10LrW4SDOkWTPBpbl
 
 
+
+## Project Dashboard 
+- Dashboard link: 
+https://public.tableau.com/views/Book1_17729038023160/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
+
+## Project Story 
+- Story link: 
+https://public.tableau.com/views/story_17730371423990/Story1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
 ---
 Developed for M.C.A. Project - Heart Disease Analysis.
 
