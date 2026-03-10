@@ -18,5 +18,13 @@ This project is a comprehensive web application built using the Flask framework 
 - templates/: Contains HTML files including index.html, about.html, and dashboard.html.
 - static/: Directory for background images, icons, and CSS stylesheets.
 
+
+
+## Project Explanation Video 
+- google drive link: 
+https://drive.google.com/drive/folders/115G8GxqOAcMermO10LrW4SDOkWTPBpbl
+
+
 ---
 Developed for M.C.A. Project - Heart Disease Analysis.
+
